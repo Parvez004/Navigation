@@ -1,0 +1,29 @@
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    padding: 20px;
+}
+nav > ul > li > a:hover{
+    background-color: black;
+    color: bisque;
+    
+}
+nav > ul{
+    display: flex;
+}
+.more{
+    position: absolute;
+    display: none;
+    padding: 0;
+   
+}
+.more li{
+    padding: 0;
+    margin: 10px;
+}
+nav > ul > li:hover > ul{
+    display: block;
+    background-color: burlywood;
+}
